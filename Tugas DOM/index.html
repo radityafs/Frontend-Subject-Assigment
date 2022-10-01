@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <p id="mainid" style="text-align:center; font-size:50px; font-weight:bold;"></p>
+
+    <div class="content" style="display: flex; justify-content:space-around;" >
+        <div class="gambar-1">
+            <img id="Image1" src="https://cdn.britannica.com/55/174255-050-526314B6/brown-Guernsey-cow.jpg" width="200px" height="200px" style="margin-bottom: 50px;" />
+            <p id="paraghraph1">Cows</p>
+            <div class="button">
+                <button style="width: 150px; height: 75px;" onclick="readinnerHTML('paraghraph1')">Get Detail</button>
+                <button style="width: 150px; height: 75px;" onclick="changeStyle('paraghraph1')">Rubah Style</button>
+                <button style="width: 150px; height: 75px;" onclick="changeRandomImage('Image1','Cows')">Rubah Gambar</button>
+                <button style="width: 150px; height: 75px;" onclick="changeImageSize('Image1')">Ubah Ukuran</button>
+                <button style="width: 150px; height: 75px;" onclick="getLarger('Image1')">Perbesar Gambar</button>
+                <button style="width: 150px; height: 75px;" onclick="getSmaller('Image1')">Perkecil Gambar</button>
+            </div>
+        </div>
+    
+        <div class="gambar-2">
+            <img id="Image2" src="https://i.natgeofe.com/n/3ac79952-e41e-4726-b41c-b0e56f1dd38a/giraffe_01_2x3.JPG" width="200px" height="200px" style="margin-bottom: 50px;" />
+            <p id="paraghraph2">Giraffes</p>
+    
+            <div class="button">
+                <button style="width: 150px; height: 75px;" onclick="readinnerHTML('paraghraph2')">Get Detail</button>
+                <button style="width: 150px; height: 75px;" onclick="changeStyle('paraghraph2')">Rubah Style</button>
+                <button style="width: 150px; height: 75px;" onclick="changeRandomImage('Image2','Giraffes')">Rubah Gambar</button>
+                <button style="width: 150px; height: 75px;" onclick="changeImageSize('Image2')">Ubah Ukuran</button>
+                <button style="width: 150px; height: 75px;" onclick="getLarger('Image2')">Perbesar Gambar</button>
+                <button style="width: 150px; height: 75px;" onclick="getSmaller('Image2')">Perkecil Gambar</button>
+            </div>
+        </div>
+    
+        <div class="gambar-3">
+            <img id="Image3" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Grosser_Panda.JPG/1200px-Grosser_Panda.JPG" width="200px" height="200px" style="margin-bottom: 50px;" />
+            <p id="paraghraph3">Pandas</p>
+    
+            <div class="button">
+                <button style="width: 150px; height: 75px;" onclick="readinnerHTML('paraghraph3')">Get Detail</button>
+                <button style="width: 150px; height: 75px;" onclick="changeStyle('paraghraph3')">Rubah Style</button>
+                <button style="width: 150px; height: 75px;" onclick="changeRandomImage('Image3','Pandas')">Rubah Gambar</button>
+                <button style="width: 150px; height: 75px;" onclick="changeImageSize('Image3')">Ubah Ukuran</button>
+                <button style="width: 150px; height: 75px;" onclick="getLarger('Image3')">Perbesar Gambar</button>
+                <button style="width: 150px; height: 75px;" onclick="getSmaller('Image3')">Perkecil Gambar</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
